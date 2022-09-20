@@ -1,1 +1,4 @@
-def choose_story():
+def choose_story(choice):
+
+
+choice =
