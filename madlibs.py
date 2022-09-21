@@ -1,4 +1,5 @@
 def choose_story(choice):
+    match choice:
 
 
 choice = input(
