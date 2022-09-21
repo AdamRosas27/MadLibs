@@ -1,6 +1,7 @@
 def choose_story(choice):
     match choice:
         case 1:
+            print("You chose the Farm Animal ad-lib")
         case 2:
         case 3:
         case 4:
