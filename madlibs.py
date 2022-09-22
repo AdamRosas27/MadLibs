@@ -15,6 +15,6 @@ def choose_story(choice):
 
 
 choice = int(input(
-    "Enter 1 for Farm Animals\n2 for Spooky Story\n3 for Birthday Party\nor 4 for Love Story."))
+    "Enter 1 for Farm Animals\nEnter 2 for Spooky Story\nEnter 3 for Birthday Party\nEnter 4 for Love Story"))
 
 choose_story(choice)
