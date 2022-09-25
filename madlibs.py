@@ -24,4 +24,5 @@ def choose_story(choice):
 choice = int(input(
     "Enter 1 for Farm Animals\nEnter 2 for Spooky Story\nEnter 3 for Birthday Party\nEnter 4 for Love Story"))
 
+# Choose story method is called with the choice variable as the argument
 choose_story(choice)
