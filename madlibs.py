@@ -20,6 +20,7 @@ def choose_story(choice):
             return None
 
 
+# Choice variable is set to the input that the user gives
 choice = int(input(
     "Enter 1 for Farm Animals\nEnter 2 for Spooky Story\nEnter 3 for Birthday Party\nEnter 4 for Love Story"))
 
