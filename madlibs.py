@@ -1,6 +1,7 @@
 
 # Method that takes in a parameter and chooses a story based on the input
 def choose_story(choice):
+    # Match case statement that acts as a switch statement and the output is based on the users input
     match choice:
         case 1:
             print("You chose the Farm Animal ad-lib:\nThere are many kinds of (adjective) animals that (verb) on a farm. For example, (plural noun; animals) and (plural noun; animals) (verb) eggs, and (noun; food) comes from farm-raised (plural noun; animals). On a dairy farm, (plural noun; animals) and (plural noun; animals) make (noun;beverage) that people drink and also use to make (noun; food) and (noun; food). Some farm animals like (plural noun; animals) and (plural noun; animals) have soft (noun), which is used to make (plural noun; article of clothing) and (plural noun).")
