@@ -1,3 +1,5 @@
+
+# Method that takes in a parameter and chooses a story based on the input
 def choose_story(choice):
     match choice:
         case 1:
