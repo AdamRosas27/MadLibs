@@ -9,6 +9,7 @@ def choose_story(choice):
             # Asks the user to enter an input for the types of words
             fa_adj_1, fa_verb_1, fa_pn_1, fa_pn_2, fa_verb_1, fa_n_1, fa_pn_3, fa_pn_4, fa_pn_5, fa_n_2, fa_n_3, fa_n_4, fa_pn_6, fa_pn_7, fa_n_5, fa_pn_8, fa_pn_9 = input(
                 "Enter your desired adjectives, pronouns, nouns, and verbs to complete the story").split()
+            # Prints out the story with the words that the user chose
             print("You chose the Farm Animal ad-lib:\nThere are many kinds of {} animals that {} on a farm. For example, {} and {} {} eggs, and {} comes from farm-raised {}. On a dairy farm, {} and {} make {} that people drink and also use to make {} and {}. Some farm animals like {} and {} have soft {}, which is used to make {} and {}.".format(
                 fa_adj_1, fa_verb_1, fa_pn_1, fa_pn_2, fa_verb_1, fa_n_1, fa_pn_3, fa_pn_4, fa_pn_5, fa_n_2, fa_n_3, fa_n_4, fa_pn_6, fa_pn_7, fa_n_5, fa_pn_8, fa_pn_9))
         case 2:
